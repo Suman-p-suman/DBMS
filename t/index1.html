@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <title>SRHolidays</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <style>
+      .swiper.swiper-pagination-bullet-active{
+    background: #fff;
+}
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SR HOLIDAYS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav text-right " >
+        <a class="nav-link active" style="padding-left: 30px;padding-right: 30px;" aria-current="page" href="#">Home</a>
+        <a class="nav-link active" style="padding-left: 30px;padding-right: 30px;" href="login.php">AdminLogin</a>
+       <div > <a class="nav-link active" style="padding-left: 30px;padding-right: 30px;" target="_blank" href="contact.html">Contact</a></div>
+       
+      </div>
+    </div>
+  </div>
+</nav>
+    <h1 style="text-align: center; padding: 15px; background-color: rgb(35, 184, 204); text-decoration-color:rgb(211, 226, 228) ; margin: 0;">Welcome to SRHolidays</h1>
+    <div class="maindiv">
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"> <img src="5.jpg" alt="Los Angeles" width="50%" style="border-radius: 5%;"  ></div>
+      <div class="swiper-slide"><img src="6.jpg" alt="Chicago"   width="50%" style="border-radius: 5%;"></div>
+      <div class="swiper-slide"><img src="7.png" alt="New York" width="50%" style="overflow: hidden; border-radius: 10%;"></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination" ></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev" style="color:#fff"></div>
+    <div class="swiper-button-next" style="color:#fff; "></div>
+  
+    
+  </div>
+    </div>
+   
+      <h3 style="padding-top: 10px; padding-left: 50px;padding-bottom: 5px;">Planning Your Next Holiday? Read This....</h5>
+      <p style="padding-top: 10px; padding-left: 50px;padding-bottom: 5px;" >Bangalore – the Silicon Valley of India and one of the busiest metropolitan cities in the country boasts of a modern and fast-paced life. Everyone needs a respite from the madness of the city and would want to take vacations often through the year. The key to enjoying a memorable holiday starts with finding a good travel agency in Bangalore. Good Bangalore tour operators not only assist in ticketing and reservations but also handhold you through the entire planning.</p>
+      <h3 style="padding-top: 10px; padding-left: 50px;padding-bottom: 5px;">What To Look for While Choosing a Reliable Travel Agent?</h3>
+      <p  style="padding-top: 10px; padding-left: 50px;padding-bottom: 5px;">Look for a travel agency in Bangalore with experience and expertise in chalking out a well-laid-out tour plan within your budget and at a pace that’s most comfortable for you. Only the best tour operators in Bangalore can ensure that you can create beautiful travel memories that last a lifetime. However, you must also be cautious not to get trapped by fraudsters posing as licensed travel agents and promising to handle all travel arrangements, from applying for passports and visas to reservations and ticketing for international travel. Make sure the tour operator is experienced and reliable. You can always check his credibility on Google – negative reviews, no reviews, and too many sugar-coated reviews are a stay-away alert.</p>
+        <h3 style="padding-top: 10px; padding-left: 50px;padding-bottom: 5px;">What Do Bangalore Tour Operators Do?</h3>
+        <p style="padding-top: 10px; padding-left: 50px;padding-bottom: 5px;">A tour operator’s job is to arrange for travel reservations, oversee travel arrangements for sightseeing, arrange guided tours, manage entry tickets for tourist spots, and arrange food arrangements throughout your trip. These small details may look petty at the outset, but they aren’t simple and need professional experience and robust coordination. In addition, the travel agent needs to ensure that the customer does not have any issues at any point in time during the tour. Only the very best travel agency in Bangalore city can offer you an unparalleled tour experience.</p>
+      <div class="book" style="text-align: center; padding-top: 20px; padding-bottom: 30px;">
+        
+        <a class="btn btn-outline-success"id="bo" href="booktrip.html">Book trip</a>
+    
+  </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        
+        const swiper = new Swiper('.swiper', {
+          autoplay:{
+          delay:3000,
+          disableOnInteraction:false,
+        },
+      loop: true,
+
+  
+    pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+ 
+    });
+    </script> 
+     <footer id="footer">
+
+      <p class="cp">  © Copyright SRHolidays-Bangalore</p>
+  
+    </footer>   
+</body>
+    
+</html>
