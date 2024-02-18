@@ -1,5 +1,4 @@
 # DBMS
- Here's a general description of a travel agency project:
 
 A travel agency project involves the development of a comprehensive platform or system that facilitates the booking and management of travel-related services for customers. The project aims to provide an easy and convenient way for individuals or groups to plan and arrange their travel arrangements, including flights, accommodations, transportation, and activities.
 
